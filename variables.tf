@@ -3,3 +3,5 @@ variable "ssh_key_name" {
   type        = string
   default     = "master"  # this is .pem key name for instances
 }
+# aws eks --region ap-south-1 update-kubeconfig --name myproject-cluster
+
